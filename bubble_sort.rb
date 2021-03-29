@@ -10,10 +10,10 @@ def bubble_sorter(array)
             array[i + 1] = a
             array[i] = b
             sort = true
+            p array
             end
         end
     end
-    p array
 end
 
 bubble_sorter([5, 3, 7, 9, 2, 6, 8, 1])
